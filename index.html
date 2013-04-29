@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Multiplayer Battleship</title>
+
+        <!-- The stylesheets -->
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <link rel="stylesheet" href="assets/css/bootstrap-responsive.min.css" />
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+        <!-- JavaScript includes. Notice that socket.io.js is served by node.js -->
+        <script src="/socket.io/socket.io.js"></script>
+
+        <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+
+        <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <!--<canvas id="paper" width="1900" height="1000">
+            Your browser needs to support canvas for this to work!
+        </canvas>-->
+        <div class="container">
+          <div class="jumbotron">
+            <input type="text" id="name" placeholder="Name?"><br />
+            <button type="button" id="button" class="btn btn-primary">
+              Press me!
+            </button>
+            <div class="clicks">
+            </div>
+          </div>
+        </div>
+
+    </body>
+</html>
